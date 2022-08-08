@@ -49,6 +49,8 @@
       "id": 3,
       "title": "Amazon Alexa Echo Dot",
       "image": "https://ripleycl.imgix.net/https%3A%2F%2Fd3hrxnsni0l44u.cloudfront.net%2Fmedia%2Fcatalog%2Fproduct%2F1%2F-%2F1-charcoal.jpg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=614079ece6ccca8094328259bfd96b9b",
+      "stock": 20,
+      "empresa": "Amazon",
       "especificaciones": {
         "tipo": "Dispositivos inteligentes",
         "alto": "8,9",
