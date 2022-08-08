@@ -4,7 +4,8 @@
       "id": 1,
       "name": "Leanne Graham",
       "username": "Bret",
-      "email": "Sincere@april.biz" 
+      "email": "Sincere@april.biz",
+      "password": "acceso"
     }
   ],
   "products": [
@@ -12,50 +13,136 @@
       "precio": 1249150,
       "id": 1,
       "title": "Apple iPhone 12 Pro Max Grafito 256Gb",
-      "image": "https://i.linio.com/p/3eebd43470916f18151d45c8e962560e-product.webp"
-    }, 
+      "image": "https://i.linio.com/p/3eebd43470916f18151d45c8e962560e-product.webp",
+      "stock": 100,
+      "empresa": "Apple",
+      "especificaciones": {
+        "pantalla": "6.1",
+        "camaras": "4",
+        "garantia": "3 meses",
+        "almacenamiento": "256GB",
+        "Memoria RAM": "4GB",
+        "so": "ios 13",
+        "conectividad": "Bluetooth | Wifi",
+        "Modelo": "Iphone 12 Pro"
+      }
+    },
     {
       "precio": 2699990,
       "id": 2,
-      "title": "Macbook PRO",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_797920-MLC45629512487_042021-O.webp"
-    }, 
+      "title": "Macbook PRO M1 PRO - 16'",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_797920-MLC45629512487_042021-O.webp",
+      "stock": 30,
+      "empresa": "Apple",
+      "especificaciones": {
+        "procesador": "M1 pro 10 núcleos con GPU 6 núcleos",
+        "color": "Gris espacial",
+        "garantia": "3 meses",
+        "almacenamiento": "512GB",
+        "memoria_ram": "16GB",
+        "so": "Mac OS",
+        "pantalla": "16 pulgadas"
+      }
+    },
     {
       "precio": 119990,
       "id": 3,
       "title": "Amazon Alexa Echo Dot",
-      "image": "https://ripleycl.imgix.net/https%3A%2F%2Fd3hrxnsni0l44u.cloudfront.net%2Fmedia%2Fcatalog%2Fproduct%2F1%2F-%2F1-charcoal.jpg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=614079ece6ccca8094328259bfd96b9b"
-    }, 
+      "image": "https://ripleycl.imgix.net/https%3A%2F%2Fd3hrxnsni0l44u.cloudfront.net%2Fmedia%2Fcatalog%2Fproduct%2F1%2F-%2F1-charcoal.jpg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=614079ece6ccca8094328259bfd96b9b",
+      "especificaciones": {
+        "tipo": "Dispositivos inteligentes",
+        "alto": "8,9",
+        "peso": "3,41 Kg",
+        "compatibilidad": "iOS/Android",
+        "conexión": "Bluetooth",
+        "garantia": "3 meses",
+        "incluye-micrófono": "si",
+        "incluye-parlantes": "si"
+      }
+    },
     {
       "precio": 1990990,
       "id": 4,
       "title": "Notebook gamer MSI G565",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_817738-MLC44782210434_022021-O.webp"
-    }, 
+      "image": "https://http2.mlstatic.com/D_NQ_NP_817738-MLC44782210434_022021-O.webp",
+      "stock": 100,
+      "empresa": "MSI",
+      "especificaciones": {
+        "procesador": "Intel Core I7",
+        "memoria_ram": "16GB",
+        "pantalla": "15.6 pulgadas",
+        "tarjeta de video": "Nvidia GeForce GTX 1650",
+        "almacenamiento": "512GB",
+        "garantia": "3 meses",
+        "incluye-micrófono": "si",
+        "incluye-parlantes": "si"
+      }
+    },
     {
       "precio": 21990,
       "id": 5,
       "title": "Teclado gamer RGB K110",
-      "image": "https://i.linio.com/p/d7d86f61626601d087abc86f83f1c8ac-product.webp"
-    }, 
+      "image": "https://i.linio.com/p/d7d86f61626601d087abc86f83f1c8ac-product.webp",
+      "stock": 20,
+      "empresa": "Hewlett-Packard",
+      "especificaciones": {
+        "marca": "hp",
+        "color": "negro",
+        "inalambrico": "no",
+        "mecanico": "no",
+        "membrana": "si",
+        "retro_iluminado": "si"
+      }
+    },
     {
       "precio": 1700000,
       "id": 6,
       "title": "Cámara semiprofesional SX540",
-      "image": "https://i.linio.com/p/4ba7c9a09fcf7efbf8e2fc9216d3df0c-product.webp"
-    }, 
+      "image": "https://i.linio.com/p/4ba7c9a09fcf7efbf8e2fc9216d3df0c-product.webp",
+      "stock": 50,
+      "empresa": "Canon",
+      "especificaciones": {
+        "pantalla": "3 pulgadas",
+        "velocidad_obturador": "15 - 1/2000",
+        "formatos_imagen": "JPEG",
+        "alto": "8.17 cm",
+        "ancho": "12 cm",
+        "profundidad": "9.19 cm",
+        "peso": "442 gr"
+      }
+    },
     {
       "precio": 899990,
       "id": 7,
       "title": "Sony Playstation PS5",
-      "image": "https://i.linio.com/p/3f6b447c68d30e0e1b7e8caa7bd49cf4-product.webp"
-    }, 
+      "image": "https://i.linio.com/p/3f6b447c68d30e0e1b7e8caa7bd49cf4-product.webp",
+      "stock": 40,
+      "empresa": "Sony",
+      "especificaciones": {
+        "marca": "Sony",
+        "ancho": "10.4 cm",
+        "alto": "39 cm",
+        "largo": "26 cm",
+        "garantía": "1 año",
+        "conectividad": "Cableado;USB",
+        "peso": "442 gr"
+      }
+    },
     {
       "precio": 100990,
       "id": 8,
       "title": "Micrófono gamer profesional HyperX",
-      "image": "https://www.paris.cl/dw/image/v2/BCHW_PRD/on/demandware.static/-/Sites-paris-marketplace/default/dw9934c3bd/images/imagenes-productos/800/MKES/MKESSLAB4R-001.jpg?sw=513&sh=654&sm=fit"
+      "image": "https://www.paris.cl/dw/image/v2/BCHW_PRD/on/demandware.static/-/Sites-paris-marketplace/default/dw9934c3bd/images/imagenes-productos/800/MKES/MKESSLAB4R-001.jpg?sw=513&sh=654&sm=fit",
+      "stock": 100,
+      "empresa": "HyperX",
+      "especificaciones": {
+        "marca": "HyperX",
+        "Modelo": "HX-MICQC-BK",
+        "Compatibilidad": "Universal",
+        "largo": "24.9 cm",
+        "garantía": "2 año",
+        "conectividad": "CableadoUSB"
+      }
     }
   ]
 }
-
