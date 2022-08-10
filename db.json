@@ -45,12 +45,12 @@
       }
     },
     {
-      "precio": 119990,
+      "precio": "120000",
       "id": 3,
       "title": "Amazon Alexa Echo Dot",
       "image": "https://ripleycl.imgix.net/https%3A%2F%2Fd3hrxnsni0l44u.cloudfront.net%2Fmedia%2Fcatalog%2Fproduct%2F1%2F-%2F1-charcoal.jpg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=614079ece6ccca8094328259bfd96b9b",
-      "stock": 20,
-      "empresa": "Amazon",
+      "stock": "10",
+      "empresa": "apple",
       "especificaciones": {
         "tipo": "Dispositivos inteligentes",
         "alto": "8,9",
@@ -145,6 +145,14 @@
         "garantía": "2 año",
         "conectividad": "CableadoUSB"
       }
+    },
+    {
+      "title": "Msi Monitor Gaming 24 Curvo Full Hd Hdmi Dvi Msi",
+      "image": "https://i.linio.com/p/04c85ccd1db4ce706fe50d67a1782fc4-product.webp",
+      "stock": 20,
+      "empresa": "MSI",
+      "precio": 261990,
+      "id": 9
     }
   ]
 }
